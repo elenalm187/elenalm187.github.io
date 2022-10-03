@@ -1,0 +1,83 @@
+html{
+background-image: url(imagen_proyecto_2.jpg);
+}
+
+#contactanos{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    background-color: #0C202E;
+    padding:50px;
+    width: 500px; 
+    margin:0 auto;
+     margin-top:20px;
+    -webkit-border-radius: 15px; 
+     -moz-border-radius: 15px; 
+          border-radius: 15px;
+     -webkit-box-shadow: 0px 22px 20px -14px #000;
+     -moz-box-shadow: 0px 22px 20px -14px #000;
+          box-shadow: 0px 22px 20px -14px #000;
+}
+#formulario{
+  background-color: #0C202E;
+  padding:50px;
+  width: 500px;
+  margin:0 auto;
+  margin-top:20px;
+  -webkit-border-radius: 15px; 
+     -moz-border-radius: 15px; 
+          border-radius: 15px;
+  -webkit-box-shadow: 0px 22px 20px -14px #000;
+     -moz-box-shadow: 0px 22px 20px -14px #000;
+          box-shadow: 0px 22px 20px -14px #000;
+}
+.input {
+  position:relative;
+  font-family:sans-serif;
+  font-size: 1em;
+  font-weight:lighter;
+  color:#585858;
+  background-color: #C5C5C5;
+  width:100%;
+  padding: 15px 0px 15px 20px;
+  margin-bottom: 20px;
+  border: 3px solid #003740;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition:0.2;
+         transition:0.2s;
+}
+.input:focus{
+  -webkit-box-shadow: 0px 0px 5px #003740;
+     -moz-box-shadow: 0px 0px 5px #003740;
+          box-shadow: 0px 0px 5px #003740;
+  -webkit-transition:0.8;
+         transition:0.8s;  
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  line-height: 150%;
+  resize:vertical; 
+}
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#boton{
+  font-family:sans-serif;
+  color:white;
+  background-color:#003740;
+  text-decoration:none;
+  line-height:50px;
+  padding:20px 170px;
+  -webkit-transition:0.5s;
+         transition:0.5s;
+}
+#boton:hover{
+  background-color:#71A8DA;
+  -webkit-transition:0.5s;
+         transition:0.5s; 
+}

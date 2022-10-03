@@ -1,0 +1,29 @@
+#secciones h4 {
+    text-align: right;
+    margin: auto;
+}
+
+#secciones .contenedor {
+    display: flex;
+  
+    flex-wrap: wrap;
+}
+
+#secciones img {
+    width: 100%;
+    max-width: 55%;
+    align-self: auto;
+}
+
+#secciones h4 {
+    text-align: auto;
+    font-size: 30px;
+    color: #71A8DA;
+}
+
+#secciones .contenedor {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width: 100%;
+}
